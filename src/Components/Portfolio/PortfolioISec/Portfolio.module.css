@@ -1,0 +1,23 @@
+.portImg {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.portImg:hover .overlay {
+    opacity: 1;
+    display: flex !important;
+}
+
+.overlay {
+    cursor: pointer;
+    background: rgb(26, 188, 156, 0.7);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}

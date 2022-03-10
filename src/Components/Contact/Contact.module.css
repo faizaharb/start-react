@@ -1,0 +1,42 @@
+.inStyle {
+    outline: none;
+    position: relative;
+}
+
+input:focus,
+textarea {
+    box-shadow: none !important;
+}
+
+.inStyle::after {
+    content: "";
+    position: absolute;
+    top: 140%;
+    left: 0;
+    margin-bottom: 13px;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+
+.labelColor {
+    color: #1abc9c;
+}
+
+
+.btnStyle {
+    background-color: #1abc9c !important;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+
+.btnStyle:hover {
+    background-color: #148f77 !important;
+}
+
+.areaStyle {
+    height: 155px;
+}
